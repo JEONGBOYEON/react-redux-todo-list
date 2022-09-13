@@ -1,4 +1,9 @@
-# A guide to React-redux-todo-list App
+<div>
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> 
+<img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"> 
+</div>
+
+## A guide to React-redux-todo-list App
 
 ### Setup
 ```
