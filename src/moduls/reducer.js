@@ -1,5 +1,5 @@
 import { v4 as uuid } from "uuid";
-import { CHANGE_INPUT, ADD_TODO, TOGGLE, DELETE_TODO } from "./action";
+import { ADD_TODO, TOGGLE, DELETE_TODO } from "./action";
 
 const initialTodos = [
   {
@@ -26,11 +26,6 @@ function todos(state = initialTodos, action) {
           completed: false,
         },
       ];
-    case CHANGE_INPUT:
-      return {
-        ...state,
-        input: action.input,
-      };
     case TOGGLE:
       return state.map((todo) => {
         if (todo.id === action.id) {
